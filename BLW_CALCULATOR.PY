@@ -1,7 +1,5 @@
 from tkinter import *
 
-#joseph
-
 class Calculator:
     def __init__(self,title,colour):
         self.titlename=title
