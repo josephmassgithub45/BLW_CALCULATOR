@@ -131,5 +131,5 @@ class Calculator:
 
         c.window.mainloop()
 
-calculator=Calculator('BLUE LIGHT WAVES','GREEN')
+calculator=Calculator('BLUE LIGHT WAVES','BLUE')
 calculator.home_page()
