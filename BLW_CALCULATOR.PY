@@ -14,6 +14,10 @@ class Calculator:
         output=Frame(c.window,bg='grey',width=400,height=75)
         output.grid(row=0,columnspan=4)
 
+        #LOWER BUTTONS
+        #LOWER BUTTONS
+        #LOWER BUTTONS
+
 
         #BUTTONROW 1
         button1=Button(c.window,text='7',width=7,height=3,font='times 17 bold ',bg='lightblue')
@@ -70,9 +74,9 @@ class Calculator:
         button16=Button(c.window,text='x',width=7,height=3,font='times 17 bold ',bg='lightblue')    
         button16.grid(row=4,column=3)
 
-        #LOWER BUTTONS
-        #LOWER BUTTONS
-        #LOWER BUTTONS
+        #UPPER BUTTONS
+        #UPPER BUTTONS
+        #UPPER BUTTONS
 
         #BUTTONROW 1
         button1=Button(c.window,text='7',width=5,height=2,font='times 17 bold ',bg='lightblue')
@@ -123,7 +127,7 @@ class Calculator:
         button14=Button(c.window,text='%',width=5,height=2,font='times 17 bold ',bg='lightblue')
         button14.grid(row=4,column=1)
 
-        button15=Button(c.window,text='!',width=5,height=2,font='times 17 bold ',bg='lightblue')
+        button15=Button(c.window,text='=',width=5,height=2,font='times 17 bold ',bg='lightblue')
         button15.grid(row=4,column=2)
 
         button16=Button(c.window,text='x',width=5,height=2,font='times 17 bold ',bg='lightblue')    
